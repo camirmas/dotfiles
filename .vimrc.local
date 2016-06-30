@@ -1,0 +1,8 @@
+set shiftwidth=2
+set softtabstop=2
+
+" Setting color scheme
+colorscheme solarized
+
+" FZF
+nnoremap <leader>fv :Rooter<CR>:FZF<CR>

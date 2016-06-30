@@ -1,0 +1,5 @@
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'Konfekt/FastFold'
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'junegunn/fzf'
+Plugin 'airblade/vim-rooter'
