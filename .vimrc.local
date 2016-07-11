@@ -6,3 +6,6 @@ colorscheme solarized
 
 " FZF
 nnoremap <leader>fv :Rooter<CR>:FZF<CR>
+
+" Avoid the escape key
+inoremap jk <Esc>`^
