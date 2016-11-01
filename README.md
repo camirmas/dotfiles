@@ -16,4 +16,6 @@ ln -s ~/dotfiles/.vimrc.bundles.local ~/.vimrc.bundles.local
 
 [Install Tmux](https://tmux.github.io/)
 
+[Install zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+
 Done!

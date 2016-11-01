@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/cam/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -118,8 +118,3 @@ bakcyn='\e[46m'   # Cyan
 bakwht='\e[47m'   # White
 
 alias 'notify'='notify-send --urgency=low -i terminal'
-
-export NVM_DIR="/Users/camirmas/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-alias 'fv'='mvim -v $(fzf)'
