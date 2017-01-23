@@ -45,7 +45,7 @@ ZSH_THEME="Soliah"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions)
+plugins=(git)
 
 # User configuration
 
@@ -118,3 +118,11 @@ bakcyn='\e[46m'   # Cyan
 bakwht='\e[47m'   # White
 
 alias 'notify'='notify-send --urgency=low -i terminal'
+
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+eval `dircolors $HOME/dotfiles/gnome-terminal-colors-solarized/dircolors`
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+alias 'fv'='vim $(fzf)'

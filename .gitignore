@@ -1,2 +1,5 @@
 .vim/bundle/
 .zsh-update
+spf13-vim.sh
+gnome-terminal-colors-solarized/
+fzf
