@@ -1,5 +1,5 @@
 echo "\nInstalling Vim, Zsh, Tmux, Git..."
-sudo apt-get install vim-gtk zsh tmux git
+sudo apt-get install vim-gtk zsh tmux git curl
 
 echo "\nAdding Symlinks..."
 ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
